@@ -1,5 +1,7 @@
 from documents.models import Document
+from langchain_core.tools import tool
 
+@tool
 def list_documents():
     """
     Get Document for the current user
@@ -14,6 +16,7 @@ def list_documents():
         })
     return response_data
 
+@tool
 def get_document(document_id: int):
     """
     Get Document by ID
