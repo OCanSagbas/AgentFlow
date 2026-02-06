@@ -12,7 +12,7 @@ def get_gemini_model(model="gemini-2.5-flash"):
         model = "gemini-2.5-flash"
     return ChatGoogleGenerativeAI(
         model=model,
-        temperature=1.0,
+        temperature=0,
         max_retries=2,
         api_key=get_gemini_api_key(),
         # other params...
