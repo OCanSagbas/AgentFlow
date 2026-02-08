@@ -1,7 +1,6 @@
 Django>=5.0,<6.0
 jupyter
 langgraph
-langgraph-supervisor
 python-decouple
 permit
 langchain-google-genai
