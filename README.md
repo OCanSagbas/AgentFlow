@@ -27,7 +27,6 @@ Agent     Agent
 The supervisor agent intelligently routes user requests to the appropriate specialized agent based on the query context.
 
 ## 🚀 Quick Start
-
 ### Prerequisites
 
 - Python 3.12+
